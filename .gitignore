@@ -1,4 +1,20 @@
-out
-database.json
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+pulse
+
+# Environment variables (CRITICAL: Never skip this)
 .env
-learn-http-servers
+
+# Dependency directories
+vendor/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+out
